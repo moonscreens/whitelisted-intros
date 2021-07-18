@@ -1,0 +1,47 @@
+[
+	{
+		name: 'Moon',
+		src: 'https://moon-space.opl.io',
+		category: 'general'
+	},
+	{
+		name: '3D Pipes',
+		src: 'https://3d-pipes.opl.io',
+		category: 'classic'
+	},
+	{
+		name: '3D Text',
+		src: 'https://3d-text.opl.io',
+		category: 'classic'
+	},
+	{
+		name: '3D Flying Objects',
+		src: 'https://3d-flying-objects.opl.io',
+		category: 'classic'
+	},
+	{
+		name: 'Aquarium',
+		src: 'https://aquarium.opl.io',
+		category: 'classic'
+	},
+	{
+		name: 'Starfield',
+		src: 'https://starfield.opl.io',
+		category: 'classic'
+	},
+	{
+		name: 'Chat Racing',
+		src: 'https://chat-racing.opl.io',
+		category: 'retro'
+	},
+	{
+		name: 'PS2 (needs update)',
+		src: 'https://ps2.opl.io',
+		category: 'retro'
+	},
+	{
+		name: 'Blank',
+		src: 'https://blank.opl.io',
+		category: 'classic'
+	},
+]
