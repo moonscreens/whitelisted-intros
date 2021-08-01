@@ -2,46 +2,55 @@
 	{
 		"name": "Moon",
 		"src": "https://moon-space.opl.io",
-		"category": "general"
+		"category": "general",
+		"credits": "Made by Tape."
 	},
 	{
 		"name": "3D Pipes",
 		"src": "https://3d-pipes.opl.io",
-		"category": "classic"
+		"category": "classic",
+		"credits": "Made by Tape, inspiration from Windows 95."
 	},
 	{
 		"name": "3D Text",
 		"src": "https://3d-text.opl.io",
-		"category": "classic"
+		"category": "classic",
+		"credits": "Made by Tape, inspiration from Windows 95."
 	},
 	{
 		"name": "3D Flying Objects",
 		"src": "https://3d-flying-objects.opl.io",
-		"category": "classic"
+		"category": "classic",
+		"credits": "Made by Tape, inspiration from Windows 95."
 	},
 	{
 		"name": "Aquarium",
 		"src": "https://aquarium.opl.io",
-		"category": "classic"
+		"category": "classic",
+		"credits": "Made by Tape, art by Toona."
 	},
 	{
 		"name": "Starfield",
 		"src": "https://starfield.opl.io",
-		"category": "classic"
+		"category": "classic",
+		"credits": "Made by Tape."
 	},
 	{
 		"name": "Chat Racing",
 		"src": "https://chat-racing.opl.io",
-		"category": "retro"
+		"category": "retro",
+		"credits": "Made by Tape, inspiration from Slipstream (the game)."
 	},
 	{
 		"name": "PS2 (needs update)",
 		"src": "https://ps2.opl.io",
-		"category": "retro"
+		"category": "retro",
+		"credits": "Made by Tape."
 	},
 	{
 		"name": "Blank",
 		"src": "https://blank.opl.io",
-		"category": "classic"
+		"category": "classic",
+		"credits": "Made by Tape, inspired by the color #008083."
 	}
 ]
