@@ -54,6 +54,18 @@
 		"credits": "Made by Tape, inspired by the color #008083."
 	},
 	{
+		"name": "Game jam 2021",
+		"src": "https://moonjam3.opl.io/",
+		"category": "jam",
+		"credits": "Made by FriendlyBaron (and friend)."
+	},
+	{
+		"name": "Borpa",
+		"src": "https://borpaspin-intro.opl.io/",
+		"category": "general",
+		"credits": "Made by Tape, model by DTK."
+	},
+	{
 		"name": "Yung Dab (v1)",
 		"src": "https://yd.opl.io/background/",
 		"category": "gtarp",
@@ -142,17 +154,5 @@
 		"src": "https://shadowlord-disk3.opl.io/",
 		"category": "gtarp",
 		"credits": "Made by Tape, art by Tacos."
-	},
-	{
-		"name": "Game jam 2021",
-		"src": "https://moonjam3.opl.io/",
-		"category": "jam",
-		"credits": "Made by FriendlyBaron (and friend)."
-	},
-	{
-		"name": "Borpa",
-		"src": "https://borpaspin-intro.opl.io/",
-		"category": "general",
-		"credits": "Made by Tape, model by DTK."
 	}
 ]
