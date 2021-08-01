@@ -52,5 +52,65 @@
 		"src": "https://blank.opl.io",
 		"category": "classic",
 		"credits": "Made by Tape, inspired by the color #008083."
+	},
+	{
+		"name": "Yung Dab (v1)",
+		"src": "https://yd.opl.io/background/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v2)",
+		"src": "https://yd.opl.io/background/v2/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v3 test)",
+		"src": "https://yd.opl.io/background/v3_test/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v2)",
+		"src": "https://yd.opl.io/background/v4/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v5)",
+		"src": "https://yd.opl.io/background/v5/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v6)",
+		"src": "https://yd.opl.io/background/v6/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v7)",
+		"src": "https://yd.opl.io/background/v7/",
+		"category": "gtarp",
+		"credits": "Made Tape"
+	},
+	{
+		"name": "Yung Dab (v8)",
+		"src": "https://yd.opl.io/background/v8_powerplant/",
+		"category": "gtarp",
+		"credits": "Made by FriendlyBaron (and friend)"
+	},
+	{
+		"name": "Yung Dab (vRob)",
+		"src": "https://yd.opl.io/background/vRob/",
+		"category": "gtarp",
+		"credits": "Made by FriendlyBaron (and friend)"
+	},
+	{
+		"name": "Yung Dab (vToilet)",
+		"src": "https://yd.opl.io/background/vToilet/",
+		"category": "gtarp",
+		"credits": "Made by Tape"
 	}
 ]
