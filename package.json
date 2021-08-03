@@ -1,0 +1,24 @@
+{
+  "name": "whitelisted-intros",
+  "version": "1.0.0",
+  "description": "A repository containing a JSON array of all whitelisted intro screens.",
+  "main": "compile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonscreens/whitelisted-intros.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonscreens/whitelisted-intros/issues"
+  },
+  "homepage": "https://github.com/moonscreens/whitelisted-intros#readme",
+  "dependencies": {
+    "parse-md": "^2.0.4"
+  }
+}
