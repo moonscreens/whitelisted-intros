@@ -48,7 +48,7 @@ for (const category in categories) {
 		categoriesString += `<ul>\n`;
 		for (let index = 0; index < element.length; index++) {
 			const intro = element[index];
-			categoriesString += `<li><a href="${intro.metadata.src}.html">${intro.metadata.name}</a></li>\n`;
+			categoriesString += `<li><a href="${intro.metadata.src}" target="_blank">${intro.metadata.name}</a></li>\n`;
 		}
 		categoriesString += `</ul>\n`;
 	}
@@ -63,6 +63,14 @@ let HTMLOutput = `<!DOCTYPE html>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Twitch Chat Intros</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+	</style>
 </head>
 
 <body>
