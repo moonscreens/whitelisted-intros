@@ -48,7 +48,7 @@ for (const category in categories) {
 		categoriesString += `<ul>\n`;
 		for (let index = 0; index < element.length; index++) {
 			const intro = element[index];
-			categoriesString += `<li><a href="${intro.metadata.src}" target="_blank">${intro.metadata.name}</a><br />${intro.metadata.credits}</li>\n`;
+			categoriesString += `<li><a href="${intro.metadata.src}" target="_blank">${intro.metadata.name}</a> - ${intro.metadata.credits}</li>\n`;
 		}
 		categoriesString += `</ul>\n`;
 	}
