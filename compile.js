@@ -69,6 +69,8 @@ let HTMLOutput = `<!DOCTYPE html>
 	<style>
 		body {
 			font-family: 'Roboto', sans-serif;
+			background: #222;
+			color: #fff;
 		}
 	</style>
 </head>
