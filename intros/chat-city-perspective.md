@@ -1,6 +1,6 @@
 ---
 name: "Chat City (perspective)"
 src: "https://chat-city.opl.io/?perspective=true"
-category: "retro"
+category: "general"
 credits: "Made by Tape"
 ---
