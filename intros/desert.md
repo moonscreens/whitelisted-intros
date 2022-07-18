@@ -1,6 +1,6 @@
 ---
 name: "Desert"
 src: "https://desert.opl.io"
-category: "general"
+category: "low-poly"
 credits: "Made by Tape"
 ---
