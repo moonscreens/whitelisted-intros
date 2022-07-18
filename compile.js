@@ -6,26 +6,26 @@ import parseMD from 'parse-md';
 const output = [];
 
 fs.readdirSync('intros').forEach(file => {
-    const filePath = `intros/${file}`;
-    console.log(`parsing ${filePath}`);
-    const content = fs.readFileSync(filePath, 'utf8');
-    const parsed = parseMD.default(content);
-    output.push(parsed);
+	const filePath = `intros/${file}`;
+	console.log(`parsing ${filePath}`);
+	const content = fs.readFileSync(filePath, 'utf8');
+	const parsed = parseMD.default(content);
+	output.push(parsed);
 });
 
 // check if `build` directory exists and if not, create it
 if (!fs.existsSync('build')) {
-    console.log(`Creating build directory...`);
-    fs.mkdirSync('build');
+	console.log(`Creating build directory...`);
+	fs.mkdirSync('build');
 }
 
 console.log(`exporting ${output.length} intros`);
 
 // alphabetically sort the output array
 output.sort((a, b) => {
-    if (a.metadata.name.toLowerCase() < b.metadata.name.toLowerCase()) return -1;
-    if (a.metadata.name.toLowerCase() > b.metadata.name.toLowerCase()) return 1;
-    return 0;
+	if (a.metadata.name.toLowerCase() < b.metadata.name.toLowerCase()) return -1;
+	if (a.metadata.name.toLowerCase() > b.metadata.name.toLowerCase()) return 1;
+	return 0;
 });
 
 // save out our JSON file
@@ -71,6 +71,12 @@ let HTMLOutput = `<!DOCTYPE html>
 			font-family: 'Roboto', sans-serif;
 			background: #222;
 			color: #fff;
+		}
+		a {
+			color: #03fcec;
+		}
+		a:visited {
+			color: #00c2b5;
 		}
 	</style>
 </head>
