@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/moonscreens/whitelisted-intros#readme",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "parse-md": "^2.0.4"
+  },
+  "devDependencies": {
+    "capture-website": "^3.2.0"
   }
 }

@@ -10,6 +10,8 @@ fs.readdirSync('intros').forEach(file => {
 	console.log(`parsing ${filePath}`);
 	const content = fs.readFileSync(filePath, 'utf8');
 	const parsed = parseMD.default(content);
+
+	parsed.slug = file.replace('.md', '').replace(/ /g, '-');
 	output.push(parsed);
 });
 
