@@ -20,6 +20,7 @@ async function takeScreenshots() {
 					fullPage: false,
 					delay: 10,
 					timeout: 30,
+					debug: true,
 					type: 'jpeg',
 				});
 
